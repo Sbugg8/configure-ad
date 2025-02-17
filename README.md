@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-The first step in setting up Active Directory, is creating a virtual machine. Inside of that VM, a Resource Group is created. This is essential because it groups related resources (e.g., VMs, storage, and databases for an application) into a single unit and assists with better resource management and visibility. Once the VM is created and the Resource Group is deployed, a DOmain Controller (DC-1) is created.
+The first step in setting up Active Directory, is creating a virtual machine. Inside of that VM, a Resource Group is created. This is essential because it groups related resources (e.g., VMs, storage, and databases for an application) into a single unit and assists with better resource management and visibility. Once the VM is created and the Resource Group is deployed, a Domain Controller (DC-1) is created.
 
 ![image](https://github.com/user-attachments/assets/e00f8123-c6f1-4e69-8805-1ecba37ecf09)
 
