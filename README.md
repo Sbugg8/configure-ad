@@ -33,11 +33,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The first step in setting up Active Directory, is creating a virtual machine. Inside of that VM, a Resource Group is created. This is essential because it groups related resources (e.g., VMs, storage, and databases for an application) into a single unit and assists with better resource management and visibility. Once the VM is created and the Resource Group is deployed, a DOmain Controller (DC-1) is created.
+
+![image](https://github.com/user-attachments/assets/e00f8123-c6f1-4e69-8805-1ecba37ecf09)
+
+
+A Domain Controller (DC) is a crucial component of Active Directory (AD) in a Windows-based network. It is responsible for authentication, security policies, and overall network management. Without a DC, users and devices would have difficulty accessing resources, enforcing security rules, and maintaining centralized management.
+
+
 </p>
 <br />
 
