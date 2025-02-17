@@ -24,8 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
+
+ - Setup up Domain Controller in Azure: Create a Resource Group, Create a Virtual Network and Subnet, Create the Domain Controller VM (Windows Server 2022) named “DC-1”.
+- Setup Client-1 in Azure: Create the Client VM (Windows 10) named “Client-1”
+ 
 - Step 3
 - Step 4
 
