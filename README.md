@@ -26,7 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
  - Setup up Domain Controller in Azure: Create a Resource Group, Create a Virtual Network and Subnet, Create the Domain Controller VM (Windows Server 2022) named “DC-1”.
-- Setup Client-1 in Azure: Create the Client VM (Windows 10) named “Client-1”
+- Setup Client in Azure: Create the Client VM (Windows 10) named “Client-1”
  
 - Step 3
 - Step 4
