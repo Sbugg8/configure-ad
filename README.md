@@ -60,6 +60,9 @@ After VM is created, set Domain Controller’s NIC Private IP address to be stat
   Once Active Directory is configured so that Client and Domain Controller are able to communicate, the next step is installing Active Directory inside of the Domain Controller.
 
   ![image](https://github.com/user-attachments/assets/dd1dea01-7319-438d-a4d6-665d5c050b67)
+![image](https://github.com/user-attachments/assets/fd8f4866-6c27-46f5-98b9-bfc4dfb9a213)
+
+
 
 
 
