@@ -63,6 +63,11 @@ After VM is created, set Domain Controller’s NIC Private IP address to be stat
 ![image](https://github.com/user-attachments/assets/fd8f4866-6c27-46f5-98b9-bfc4dfb9a213)
 
 
+Active Directory (AD) is critical for businesses and organizations because it centralizes user and resource management, enhances security, and ensures efficient network operations. It allows IT to define access to specific files, systems, or applications.
+
+
+![image](https://github.com/user-attachments/assets/c21c42ac-c467-48d0-a620-cafdd6482c0f)
+
 
 
 
