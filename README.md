@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Setup Client in Azure: Create the Client VM (Windows 10) named “Client-1”
  
 - Configure Active Directory Components
-- Step 4
+- Deploying Active Directory
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -45,18 +45,22 @@ A Domain Controller (DC) is a crucial component of Active Directory (AD) in a Wi
 <br />
 
 
-![image](https://github.com/user-attachments/assets/eb1844f1-149c-4ebd-9338-71ce4d0ef5e9)
+![image](https://github.com/user-attachments/assets/f9562df7-e659-42ef-86b3-97b13070bc7e)
+
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+After VM is created, set Domain Controller’s NIC Private IP address to be static and log into the VM and disable the Windows Firewall to test the connectivity. Once this is done, create the Client VM. Make sure to attach it to the same region and virtual network as the DC. After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+![image](https://github.com/user-attachments/assets/3a23ca90-1a9d-459e-ba4f-25cd829920fa)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  Once Active Directory is configured so that Client and Domain Controller are able to communicate, the next step is installing Active Directory inside of the Domain Controller.
+
+  ![image](https://github.com/user-attachments/assets/dd1dea01-7319-438d-a4d6-665d5c050b67)
+
+
+
+
