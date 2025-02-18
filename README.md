@@ -68,6 +68,20 @@ Active Directory (AD) is critical for businesses and organizations because it ce
 
 ![image](https://github.com/user-attachments/assets/c21c42ac-c467-48d0-a620-cafdd6482c0f)
 
+The best way to customize Active Directory, is by giving permissions to specific users, using Powershell.
+
+
+![image](https://github.com/user-attachments/assets/6fcae5da-bac5-432f-8e2f-c8d5cb473556)
+
+PowerShell is like a supercharged remote control for your computer. It helps you automate tasks, manage systems, and control settings using commands and scripts.
+
+![image](https://github.com/user-attachments/assets/9a433a20-02b9-4b4e-8246-5028bd83c9c1)
+![image](https://github.com/user-attachments/assets/09567460-fcb7-4742-abfe-bbc92c0b24c6)
+
+
+
+
+
 
 
 
